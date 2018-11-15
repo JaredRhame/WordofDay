@@ -18,15 +18,21 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.wod {
+  width: 80vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pron {
+  font-style: italic;
+  margin: 0;
+}
+
+.pron-sound {
+  font-size: 45px;
+}
+
+.pron-sound:hover {
+  border: 1px solid green;
+  border-radius: 50%;
+  cursor: pointer;
 }
